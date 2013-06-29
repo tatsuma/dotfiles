@@ -1,0 +1,36 @@
+filetype off
+syntax on
+filetype on
+filetype indent on 
+filetype plugin on 
+
+autocmd! bufwritepost .vimrc source ~/.vimrc
+
+set encoding=utf-8
+set fileencoding=utf-8
+set termencoding=utf-8
+set scrolloff=5
+set nocompatible
+set bs=2
+set history=50
+set ruler
+set hlsearch
+set clipboard=unnamed
+set showmatch
+set showmode
+set autoindent
+set nobackup
+set copyindent
+set ignorecase
+set smartcase
+set smarttab
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+
+set number
+set antialias
+set showtabline=2
+
+au FileType Makefile set noexpandtab
